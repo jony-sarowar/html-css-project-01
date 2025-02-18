@@ -12,7 +12,7 @@ A fully responsive web project designed using HTML & CSS, implementing media que
 ✅ Dorpdown menu.
 
 ## 🔧 Installation & Usage
-1️⃣ [Clone the Repository](https://github.com/jony-sarowar/C_Sharp_Project_01.git) <br>
+1️⃣ [Clone the Repository](https://github.com/jony-sarowar/html-css-project-01.git) <br>
 2️⃣ Open the <b>index.html</b> file in any browser.<br>
 3️⃣ Enjoy it 😊<br>
 
