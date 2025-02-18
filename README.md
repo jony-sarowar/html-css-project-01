@@ -22,6 +22,9 @@ I have created a 5-minute video explaining how this project works.
 
 📺 Watch the Video: [Click here](https://www.facebook.com/share/v/157MAQJYt9/)
 
+## 🌐 Live Preview
+[Click here](https://html-css-project-new.netlify.app/)
+
 ## 📂 Technologies Used
 1️⃣ HTML5<br>
 2️⃣ CSS3 (Flexbox & Grid)<br>
