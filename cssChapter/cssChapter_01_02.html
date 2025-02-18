@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_Chapter_11_12</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico"/>
+    <!-- Font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+   <!-- Main css -->
+   <link rel="stylesheet" href="../style.css">
+   <!-- All chapter css -->
+   <link rel="stylesheet" href="../allChapter.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="../css/responsive.css">
+    <!-- animate css -->
+    <link rel="stylesheet" href="../css/animate.css">
+
+    <!-- Internal css -->
+    <style>
+        .Internal p{
+            font-size: 25px;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+    <!-- start header -->
+    <header>
+        <!-- nav aria -->
+        <nav id="navigation">
+            <div class="logo-container">
+               <a href="../index.html"> <img src="../images/logo.png" alt="edu"></a>
+            </div>
+            
+            <!-- Hamburger Icon -->
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+    
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="../htmlChapter/chapter_01_02.html">Html <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropDown">
+                        <li><a href="../htmlChapter/chapter_01_02.html">Chapter-01_02</a></li>
+                        <li><a href="../htmlChapter/chapter_03_04.html">Chapter-03_04</a></li>
+                        <li><a href="../htmlChapter/chapter_05_06.html">Chapter-05_06</a></li>
+                        <li><a href="../htmlChapter/chapter_07_08.html">Chapter-07_08</a></li>
+                    </ul>
+                </li>
+                <li><a href="cssChapter_01_02.html">Css <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropDown">
+                        <li><a href="cssChapter_01_02.html">Chapter-11_22</a></li>
+                        <li><a href="cssChapter_03_04.html">Chapter-13_14</a></li>
+                        <li><a href="cssChapter_05_06.html">Chapter-15_16</a></li>
+                        <li><a href="cssChapter_07_08.html">Chapter-17_18</a></li>
+                        <li><a href="cssChapter_09_10.html">Chapter-19_20</a></li>
+                        <li><a href="cssChapter_11_12.html">Chapter-21_22</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Notice</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- end header -->
+
+    <!--start main section -->
+    <main>
+        <section>
+            <div class="div-container">
+                <div class="chapter-title">
+                    <h2>CHAPTER 11</h2>
+                    <h3>Getting to Know CSS</h3>
+                </div>
+                <br>
+                <h4>Comments in CSS:</h4>
+                <p> I have displayed css comment in css/allChapter.css</p>
+                <br>
+
+                <div class="Units">
+                    <h4>CSS Units:</h4>
+                    <p>I use font size rem and px in this paragraph. font-size 16 px</p>
+                    <span>font size 1rem</span>
+                </div>
+                <br><br>
+                <div class="Shorthand">
+                    <h4>Shorthand Properties:</h4>
+                    <p>I have displayed Shorthand Properties in css/allChapter.css</p>
+                </div>
+                <br>
+                <div class="Inline">
+                    <h4>Inline CSS:</h4>
+                    <p style="font-size: 20px; color: aqua;">I use inline css in this paragraph</p>
+                </div>
+                <br>
+                <div class="Internal">
+                    <h4>Internal CSS:</h4>
+                    <p>I use Internal css in this paragraph. see this code in head section</p>
+                </div>
+                
+
+        
+                
+
+                <div class="chapter-title">
+                    <h2>CHAPTER 12</h2>
+                    <h3>CSS Selectors</h3>
+                </div>
+                <br>
+                <div id="IDSelector">
+                    <h4>ID Selector:</h4>
+                    <p>this example for IDSelector.see this code in css/allchapter.css </p>
+                </div>
+                <br><br>
+                <div class="ClassSelector">
+                    <h4>Class Selector:</h4>
+                    <p>this example for IDSelector.see this code in css/allchapter.css </p>
+                </div>
+
+                <br><br>
+                <div class="Pseudoclass">
+                    <h4>CSS Pseudo-class:</h4>
+                    <h4>Cursor Interaction</h4>
+                    <a href="">Cursor Interaction</a>
+                </div>
+
+                <br><br>
+                <div class="FormValidation">
+                    <h4>Form Validation:</h4>
+
+                    <form action="">
+                        <p>input is required:</p>
+                        <input type="text" name="fname" required />
+                    </form>
+                </div>
+
+                <br><br>
+                <div class="out-of-range">
+                    <h4>out-of-range:</h4>
+                    <form action="">
+                        <p>This number input must be in the range of 1 - 10</p>
+                        <input type="number" name="quantity" min="1" max="10" value="15" />
+                    </form>
+                </div>
+
+                <br><br>
+                <div class="ChildElements">
+                    :first-child-
+                    <p>this is a first child</p>
+                    <p>this is a last child</p>
+                </div>
+
+                <br><br>
+                <div class="ChildElements">
+                    :last-child-
+                    <p>this is a first child</p>
+                    <p>this is a last child</p>
+                </div>
+
+                <br><br>
+                <div class="nth-child">
+                    <h4>:nth-child(N)</h4>
+                    <p>this is a 1st child</p>
+                    <p>this is a 2nd child</p>
+                    <p>this is a 3rd child</p>
+                </div>
+
+                <br><br>
+                <div class="Typeofelements">
+                    <h4>:Type of elements</h4>
+                    <p>this is a 1st child</p>
+                    <p>this is a 2nd child</p>
+                    <p>this is a 3rd child</p>
+                </div>
+
+                <br><br>
+                <h4>:empty</h4>
+                <div class="empty">
+                    <div></div>
+                </div>
+
+                <br><br>
+                <h4>CSS Pseudo-element:</h4>
+                <br>
+                <h4>::first-letter</h4>
+                <div class="Pseudo-element">
+                    <p><b>IsDB-BISEW</b></p>
+                </div>
+
+                <br>
+                <h4>::before</h4>
+                <p>
+                    <label class="required">Username: </label>
+                    <input type="text"/>
+                </p>
+
+                <br><br>
+                <h4>CSS Attribute Selector</h4>
+                <br>
+                <h4>[attribute]</h4>
+                <div class="attribute">
+                    <div>
+                        <p class="my-text">IsDB-BISEW</p>
+                    </div>
+                </div>
+
+
+            </div>
+        </section>
+    </main>
+    <!-- End Main Section -->
+
+    <!-- Start Footer Section -->
+    <footer>
+        <div class="footer-top">
+            <div class="footer-column wow fadeInDown">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="#">eLearning School</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Become A Teacher</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-column wow fadeInDown" data-wow-delay= "0.1s">
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="#">All Courses</a></li>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Genarel Education</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                    <li><a href="#">Web Design</a></li>
+                </ul>
+            </div>
+            <div class="footer-column wow fadeInDown" data-wow-delay= "0.2s">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Become A Teacher</a></li>
+                    <li><a href="#">Instructor/Student Profile</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Checkout</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-column address wow fadeInDown" data-wow-delay= "0.3s">
+                <h4>Address</h4>
+                <p><i class="fa-solid fa-location-dot"></i>503 Old Buffalo Street Northwest #205 New York-3087</p>
+                <p><i class="fa-solid fa-phone"></i>(123)-456-7890 , (123)-456-7890</p>
+                
+                <p><i class="fa-regular fa-envelope"></i><a href="mailto:infoname@gmail.com">infoname@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>
+                <a href="../index.html"><img src="../images/logo.png" alt="isdb"></a>
+            </div>
+            <div class="copyright">
+                <p>© 2025 All Rights Reserved. Developed By <br><br>Md.Golam Sarowar Joni <br>Trainee Id: 1286765 <br>Batch: CS/SCSL-A/63/01</p>
+            </div>
+            <div class="social-icon">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Section  -->
+
+    <!-- wow js -->
+    <script src="../js/wow.min.js"></script>
+    <!-- main js -->
+    <script src="../js/script.js"></script>
+    
+</body>
+</html>

@@ -1,0 +1,489 @@
+/* html all chapter code */
+.div-container{
+    padding: 2rem 10rem;
+    margin: 8rem;
+}
+.chapter-title{
+    text-align: center;
+    margin: 2rem 0rem;
+}
+
+table, th, td {
+    border:1px solid black;
+  }
+
+#my-iframe{
+    width: 800px;
+    height: 600px;
+    border: none;
+}
+
+
+/* css chapter 01_02 */
+
+
+/* css comments */
+
+/* Units */
+.Units p{
+    font-size: 16px;
+}
+
+.Units span{
+    font-size: 1rem;
+}
+
+.Shorthand{
+    height: 50px;
+    border-color: red;
+    border-style: solid;
+    border-top-width: 5px;
+    border-right-width: 10px;
+    border-bottom-width: 15px;
+    border-left-width: 20px;
+}
+
+
+/* css chapter 12 */
+#IDSelector{
+    background-color: blueviolet;
+}
+
+.ClassSelector{
+    background-color: brown;
+}
+
+.Pseudoclass a:focus {
+    color: red;
+}
+
+.Pseudoclass a:hover {
+    color: green;
+}
+.Pseudoclass a:active {
+    color: blue;
+}
+
+.FormValidation :required{
+    color: red;
+    background-color: lightgreen;
+}
+
+
+.out-of-range :out-of-range{
+    background-color: lightgreen;
+}
+
+.ChildElements> p:first-child{
+    color: red;
+    font-size: 20px;
+}
+
+.ChildElements> p:last-child{
+    color: green;
+    font-size: 20px;
+}
+
+.nth-child>p:nth-child(3){
+    color: red;
+    
+}
+.Typeofelements P:first-of-type{
+    color: blueviolet;
+}
+
+.empty > div:empty {
+    height: 20px;
+    border: 1px solid red;
+    background-color: yellow;
+}
+
+.Pseudo-element>P::first-letter{
+    color: red;
+}
+.required::before {
+    content: "* ";
+    color: red;
+}
+
+.attribute[class] {
+    color: red;
+}
+
+/* css chapter 13 */
+.lastDeclaration>p{
+    color: red;
+    color: green;
+}
+
+.important>p{
+    color: violet !important;
+}
+
+/* css chapter 14 */
+.BorderBox{
+    width: 300px;
+    height: 100px;
+    border: 1px solid blue;
+    box-sizing: border-box;
+}
+
+.ContentBox{
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    border: 5px solid red;
+    margin: 8px;
+    box-sizing: content-box;
+}
+.CSSMargins{
+    border: 1px solid red;
+}
+.CSSMargins>p{
+    border: 1px solid red;
+    margin-top: 50px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+}
+
+.CSSOutline>p{
+    outline-width: 5px;
+    outline-style: dotted;
+    outline-color: red;
+}
+
+.BorderStyles>p{
+    border-top: 5px solid red;
+    border-right: 5px solid red;
+    border-bottom: 5px solid red;
+    border-left: 5px solid red;
+}
+
+
+.BorderRadius>p{
+    padding: 20px;
+    width: 300px;
+    height: 150px;
+    background: green;
+    border-radius: 20px;
+}
+.Padding{
+    border: 2px solid greenyellow;
+}
+.Padding>p{
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+}
+
+.WidthHeight{
+    width: 300px;
+    height: 150px;
+    border: 2px solid blueviolet;
+}
+
+/* css chapter 15 */
+.HEX>p{
+    color: #ff8000;
+}
+.RGBColors>p{
+    color: rgb(0, 255, 255);
+}
+
+/* css chapter 16 */
+
+.TextDecoration>p{
+    text-decoration-line: line-through;
+}
+.underline>p{
+    text-decoration-line: underline;
+    text-decoration-thickness: 5px;
+}
+
+.Transform>p{
+    text-transform: uppercase;
+}
+.Transform_low>p{
+    text-transform: lowercase;
+}
+.TextSpacing>p{
+    letter-spacing: 20px;
+}
+.LineHeight>p{
+    line-height: 40px;
+}
+
+.TextAlign P{
+    margin-top: 10px;
+    width: 500px;
+    border: 1px solid black;
+}
+.FontFamily>p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+
+/* css chapter 17 */
+.background-color>p{
+    background-color: #ff8000;
+}
+.background-image{
+    background-image: url(../images/idb-bhaban2.jpg);
+    width: 900px;
+    height: 300px;
+    background-repeat: no-repeat;
+    background-size:cover;;
+    background-position:center;
+}
+
+.LinearGradients p {
+    height: 100px;
+    background: linear-gradient(to right, red, yellow);
+}
+.RadialGradients p {
+    height: 100px;
+    background: radial-gradient(red, yellow, green);
+}
+
+.displaycontainer {
+    border: 1px solid black;
+    width: 300px;
+    height: 100px;
+    }
+.inline-blocks {
+    display: inline-block;
+    border: 1px solid red;
+    height: 40px;
+}
+.normal-blocks {
+    border: 1px solid blue;
+}
+
+/* css chapter 18 */
+.CSSOverflow{
+    border: 1px solid black;
+    width: 200px;
+    height: 100px;
+}
+.Overflow{
+    margin: 10px;
+border: 1px solid red;
+background-color: white;
+height: 150px;
+}
+.CSSOpacity{
+    background-color: rgb(0, 191, 255);
+    padding: 20px;
+    margin-top: 70px;
+    opacity: 0.5;
+}
+
+.CSSShadows>p{
+    text-shadow: 3px 3px rgb(14, 249, 69);
+}
+
+.box-shadow{
+    box-shadow: 5px 5px 5px rgb(204, 11, 221);
+}
+
+/*css chapter 19 */
+
+.Position{
+    width: 200px;
+    height: 200px;
+    border: 1px dashed black;
+}
+.relative {
+    position: relative;
+    left: 30px;
+    top: 30px;
+    border: 1px solid red;
+}
+.normal {
+    border: 1px dashed blue;
+}
+
+.positioned {
+    position: relative;
+    border: 1px solid black;
+    width: 200px;
+    height: 200px;
+}
+.non-positioned {
+    border: 1px dashed black;
+    width: 150px;
+    height: 150px;
+}
+.absolute {
+    position: absolute;
+    right: 30px;
+    top: 30px;
+    border: 1px solid red;
+    background-color: white;
+}
+
+.container {
+    border: 1px solid black;
+    width: 300px;
+    height: 100px;
+}
+.child {
+    float: right;
+    border: 1px solid red;
+}
+
+.flex-container {
+    display: flex;
+    width: 300px;
+    height: 150px;
+    border: 1px solid black;
+    gap: 10px;
+}
+.flex-item {
+    border: 2px solid goldenrod;
+}
+
+.flex-container-shrink{
+    display: flex;
+    width: 400px;
+    height: 150px;
+    border: 1px solid black;
+    gap: 10px;
+}
+.flex-item-shrink {
+    border: 1px solid red;
+    flex-basis: 100px;
+}
+.item6 {
+    flex-shrink: 3;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.grid-item {
+    border: 2px solid green;
+}
+.mydiv{
+    position: relative;
+    border: 1px solid black;
+    width: 300px;
+    height: 150px;
+}
+.child{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid red;
+}
+.child1 {
+    border: 1px solid blue;
+}
+
+/* css chapter 20 */
+
+.Transitions{
+    width: 100px;
+    height: 100px;
+    color: white;
+    background: red;
+    transition: width 2s;
+}
+.Transitions:hover{
+    width: 300px;
+}
+.TransitionsDelay{
+    width: 100px;
+    height: 100px;
+    color: white;
+    background: goldenrod;
+    transition: width 2s, height 4s;
+    transition-delay: 1s;
+}
+.TransitionsDelay:hover{
+    width: 300px;
+    height: 300px;
+}
+
+@keyframes my-animation {
+    from {
+    background-color: red;
+    }
+    to {
+    background-color: yellow;
+    }
+}
+.Keyframes{
+    width: 100px;
+height: 100px;
+background-color: green;
+animation-name: my-animation;
+animation-duration: 4s;
+}
+
+
+
+@keyframes my-animation2 {
+    0% {
+    background-color: red;
+    }
+    25% {
+    background-color: yellow;
+    }
+    50% {
+    background-color: blue;
+    }
+    100% {
+    background-color: green;
+    }
+}
+
+.Iteration{
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    animation-name: my-animation2;
+    animation-duration: 4s;
+    animation-iteration-count: 3;
+}
+
+
+@keyframes my-animation3 {
+    from {
+    left: 0;
+    }
+    to {
+    left: 300px;
+    }
+}
+
+.Timing{
+    position: relative;
+    width: 100px;
+    height: 100px;
+    background-color: cyan;
+    animation-name: my-animation3;
+    animation-duration: 4s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+
+/* css chapter 21 */
+
+:root {
+    --a-global-color: red;
+    --a-local-color: blue;
+    }
+.customheader> header{
+    color: var(--a-global-color);
+    }
+.customfooter>footer {
+    color: var(--a-local-color);
+    }

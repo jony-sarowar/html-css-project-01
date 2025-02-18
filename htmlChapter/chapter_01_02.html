@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html_Chapter_01_02</title>
+    <!-- favicon -->
+    <link rel="icon" type="image/x-icon" href="../images/favicon.ico"/>
+    <!-- Font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <!-- Main css -->
+    <link rel="stylesheet" href="../style.css">
+    <!-- All chapter css -->
+    <link rel="stylesheet" href="../allChapter.css">
+    <!-- responsive css -->
+    <link rel="stylesheet" href="../css/responsive.css">
+    <!-- wow css -->
+    <link rel="stylesheet" href="../css/animate.css">
+</head>
+<body>
+    <!-- start header -->
+    <header>
+        <!-- nav aria -->
+        <nav id="navigation">
+            <div class="logo-container">
+                <a href="../index.html"><img src="../images/logo.png" alt="edu"></a>
+            </div>
+            
+            <!-- Hamburger Icon -->
+            <div class="hamburger" id="hamburger">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+    
+            <ul>
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="#">Html <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropDown">
+                        <li><a href="chapter_01_02.html">Chapter-01_02</a></li>
+                        <li><a href="chapter_03_04.html">Chapter-03_04</a></li>
+                        <li><a href="chapter_05_06.html">Chapter-05_06</a></li>
+                        <li><a href="chapter_07_08.html">Chapter-07_08</a></li>
+                    </ul>
+                </li>
+                <li><a href="#">Css <i class="fa-solid fa-caret-down"></i></a>
+                    <ul class="dropDown">
+                        <li><a href="../cssChapter/cssChapter_01_02.html">Chapter-011_22</a></li>
+                        <li><a href="../cssChapter/cssChapter_03_04.html">Chapter-13_14</a></li>
+                        <li><a href="../cssChapter/cssChapter_05_06.html">Chapter-15_16</a></li>
+                        <li><a href="../cssChapter/cssChapter_07_08.html">Chapter-17_18</a></li>
+                        <li><a href="../cssChapter/cssChapter_09_10.html">Chapter-19_20</a></li>
+                        <li><a href="../cssChapter/cssChapter_11_12.html">Chapter-21_22</a></li>
+                        
+                    </ul>
+                </li>
+                <li><a href="#">Notice</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- end header -->
+
+    <!--start main section -->
+    <main>
+        <section>
+            <div class="div-container">
+                <div class="chapter-title">
+                    <h2 id="ch-01">CHAPTER 1</h2>
+                    <h3>Getting to Know HTML</h3>
+                </div>
+                <br>
+                <h4>Favorite Icon:</h4>
+                <p> I displayed to the Favorite Icon left of the page title in the browser tab</p>
+                <br>
+                <h4>Comments:</h4>
+                <p>this is a comments</p>
+                <!-- <h2>CHAPTER 1</h2>
+                <h3>Getting to Know HTML</h3> -->
+
+                <div class="chapter-title">
+                    <h2>CHAPTER 2</h2>
+                    <h3>HTML Elements</h3>
+                </div>
+                <h4>Headings:</h4>
+                <br>
+                <h1>Chapter-02</h1>
+                <h2>Chapter-02</h2>
+                <h3>Chapter-02</h3>
+                <h4>Chapter-02</h4>
+                <h5>Chapter-02</h5>
+                <h6>Chapter-02</h6>
+                <br>
+
+                <h4>Paragraphs:</h4>
+                <p>This is my first Paragraphs</p>
+
+                <br>
+                <h4>Hyperlinks:</h4>
+                <a href="chapter_01.html"> this is a Hyperlinks</a>
+
+                <br><br>
+                <h4>Hyperlinks target _Blank:</h4>
+                <a href="chapter_01.html" target="_blank"> this is a target _Blank Hyperlinks </a>
+
+                <br><br>
+                <h4>Internal Anchors:</h4>
+                <a href="#ch-01"> Go to chapter 01 </a>
+
+
+                <br><br>
+                <h4>Download Links:</h4>
+                <a href="../images/logo.png" download="logo.png">Download Logo</a>
+
+                <br><br>
+                <h4>Images:</h4>
+                <img src="../images/logo.png" alt="This is a Logo" width="400" height="100" style="background-color: #273C66;"/>
+
+                <br><br>
+                <h4>Unordered List:</h4>
+                <ul>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>c#</li>
+                </ul>
+
+
+                <br><br>
+                <h4>Ordered List:</h4>
+                <ol>
+                    <li>html</li>
+                    <li>css</li>
+                    <li>c#</li>
+                </ol>
+
+                <br><br>
+                <h4>Description Lists:</h4>
+                <dl>
+                    <dt>HTML</dt>
+                    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, cum?</dd>
+                    <dt>CSS</dt>
+                    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, cum?</dd>
+                    <dt>C#</dt>
+                    <dd>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, cum?</dd>
+                </dl>
+
+                <br><br>
+                <h4>Tables:</h4>
+                <br>
+                <table style="width:100%">
+                    <tr>
+                      <th>Company</th>
+                      <th>Contact</th>
+                      <th>Country</th>
+                    </tr>
+                    <tr>
+                      <td>Alfreds Futterkiste</td>
+                      <td>Maria Anders</td>
+                      <td>Germany</td>
+                    </tr>
+                    <tr>
+                      <td>Centro comercial Moctezuma</td>
+                      <td>Francisco Chang</td>
+                      <td>Mexico</td>
+                    </tr>
+                </table>
+
+                <br><br>
+                <h4>Breaks:</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing Breaks. <br>Eos at ducimus animi ipsum praesentium assumenda minus itaque neque unde sed?</p>
+
+                <br><br>
+                <h4>Thematic Breaking:</h4>
+                <p>This is a Thematic Breaking</p>
+                <hr>
+
+                <br><br>
+                <h4>Progress Bars:</h4>
+                <p> Download:<progress value="100" max="100"></progress>100%</p>
+
+
+                <br><br>
+                <h4>Meter:</h4>
+                <p>Storage:<meter value="250" max="500"></meter>250GB of 500GB</p>
+
+
+                <br><br>
+                <h4>Pre:</h4>
+                <pre>
+                    Lorem ipsum, dolor sit amet
+                    consectetur adipisicing elit. 
+                    Deleniti, 
+                    sequi!
+                </pre>
+
+                <br><br>
+                <h4>Iframe:</h4>
+                <h1>IsDB-BISEW</h1>
+                <iframe id="my-iframe" src="https://www.isdb-bisew.org/"></iframe>
+                
+                <br><br>
+                <h4>HTML Entities:</h4>
+                &copy; &reg; &trade;
+                
+                
+            </div>
+        </section>
+    </main>
+    <!-- End Main Section -->
+
+    <!-- Start Footer Section -->
+    <footer>
+        <div class="footer-top">
+            <div class="footer-column wow fadeInDown">
+                <h4>Explore</h4>
+                <ul>
+                    <li><a href="#">eLearning School</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Become A Teacher</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="footer-column wow fadeInDown" data-wow-delay= "0.1s">
+                <h4>Categories</h4>
+                <ul>
+                    <li><a href="#">All Courses</a></li>
+                    <li><a href="#">Web Development</a></li>
+                    <li><a href="#">Genarel Education</a></li>
+                    <li><a href="#">Digital Marketing</a></li>
+                    <li><a href="#">Web Design</a></li>
+                </ul>
+            </div>
+            <div class="footer-column wow fadeInDown" data-wow-delay= "0.2s">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a href="#">Become A Teacher</a></li>
+                    <li><a href="#">Instructor/Student Profile</a></li>
+                    <li><a href="#">Courses</a></li>
+                    <li><a href="#">Checkout</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="footer-column address wow fadeInDown" data-wow-delay= "0.3s">
+                <h4>Address</h4>
+                <p><i class="fa-solid fa-location-dot"></i>503 Old Buffalo Street Northwest #205 New York-3087</p>
+                <p><i class="fa-solid fa-phone"></i>(123)-456-7890 , (123)-456-7890</p>
+                
+                <p><i class="fa-regular fa-envelope"></i><a href="mailto:infoname@gmail.com">infoname@gmail.com</a></p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <div>
+                <a href="../index.html"><img src="../images/logo.png" alt="isdb"></a>
+            </div>
+            <div class="copyright">
+                <p>© 2025 All Rights Reserved. Developed By <br><br>Md.Golam Sarowar Joni <br>Trainee Id: 1286765 <br>Batch: CS/SCSL-A/63/01</p>
+            </div>
+            <div class="social-icon">
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Section  -->
+
+    <!-- wow js -->
+    <script src="../js/wow.min.js"></script>
+    <!-- main js -->
+    <script src="../js/script.js"></script>
+    
+</body>
+</html>
